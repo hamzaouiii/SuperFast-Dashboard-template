@@ -24,13 +24,14 @@ nav
 	top: 0px;
 	z-index: 10;
 	background-color: white;
+	overflow-y:scroll;
 }
 
 nav h3
 {
 	border-bottom: 1px solid lightgrey;
-	margin: 30px 60px;
 	padding: 10px;
+	margin: 20px 40px;
 	font-family: 'Segoe UI';
 	font-size: 30px;
 	font-weight: lighter;
@@ -53,7 +54,15 @@ nav ul li
 	font-size: 20px;
 	cursor: pointer;
 	transition: 0.3s;
+	text-align: left;
+	border-radius: 5px;
 }
+
+nav ul li i
+{
+	margin-right: 30px ; 
+}
+
 /*** Dashboard buttons*****/
 .dashboard{	color: orange; border-color: orange;}
 .dashboard:hover{	background-color: orange; border-color: orange;}
@@ -96,3 +105,19 @@ nav ul li
 ._timeline{	background-color: olivedrab;}
 ._employees{	background-color: darkslateblue;}
 ._statistics{	background-color: chocolate;}
+body > p
+{
+	font-weight: lighter;
+	font-family: 'Segoe UI';
+	font-size: 25px;
+	color: white;
+	position: fixed;
+	right:  40px;
+	bottom: 40px;
+	z-index: 12;
+}
+
+.fa-heart
+{
+	color: red;
+}
