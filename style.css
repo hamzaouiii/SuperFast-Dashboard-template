@@ -105,6 +105,8 @@ nav ul li i
 ._timeline{	background-color: olivedrab;}
 ._employees{	background-color: darkslateblue;}
 ._statistics{	background-color: chocolate;}
+body > p > a {color: white; padding-bottom: 100px; transition: 0.3s}
+body > p > a:hover {border-bottom: 2px solid white;  padding-bottom: 0px;}
 body > p
 {
 	font-weight: lighter;
@@ -117,7 +119,4 @@ body > p
 	z-index: 12;
 }
 
-.fa-heart
-{
-	color: red;
-}
+.fa-heart { color: tomato; }
