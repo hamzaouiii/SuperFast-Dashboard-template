@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
 *
-{box-sizing: border-box;
-margin: 0px;
-padding: 0px;}
+{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
 html, body
 {
 	width: 100%;
@@ -10,7 +14,7 @@ html, body
 a{text-decoration: none;}
 h1
 {
-	font-family: 'Segoe UI';
+	font-family: 'Dosis';
 	font-size: 45px;
 	font-weight: lighter;
 	color: white;
@@ -20,7 +24,7 @@ nav
 	width: 300px;
 	height: 100%;
 	text-align: center;
-	position: relative;
+	position: fixed;
 	top: 0px;
 	z-index: 10;
 	background-color: white;
@@ -32,7 +36,7 @@ nav h3
 	border-bottom: 1px solid lightgrey;
 	padding: 10px;
 	margin: 20px 40px;
-	font-family: 'Segoe UI';
+	font-family: 'Dosis';
 	font-size: 30px;
 	font-weight: lighter;
 }
@@ -50,7 +54,7 @@ nav ul li
 	padding: 20px;
 	margin: 40px 0px;
 	font-weight: lighter;
-	font-family: 'Segoe UI';
+	font-family: 'Dosis';
 	font-size: 20px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -92,7 +96,6 @@ nav ul li i
 	height: 100%;
 	z-index: 1;
 	padding-left: 300px;
-	overflow: hidden;
 
 
 }
@@ -110,7 +113,7 @@ body > p > a:hover {border-bottom: 2px solid white;  padding-bottom: 0px;}
 body > p
 {
 	font-weight: lighter;
-	font-family: 'Segoe UI';
+	font-family: 'Dosis';
 	font-size: 25px;
 	color: white;
 	position: fixed;
